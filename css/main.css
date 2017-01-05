@@ -1,0 +1,263 @@
+* {
+  font-family: Avenir Next !important;
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+li {
+  list-style: none;
+}
+
+.jumbotron {
+  background-image: url('../assets/img/cover.png');
+  background-size: cover;
+  height: 85vh;
+  background-position: center;
+}
+
+.logo {
+  float: left;
+  height: 36px;
+}
+
+.jumbotron-text {
+  color: #4A4A4A;
+  font-size: 3.2rem;
+  padding: 0 3rem;
+  font-weight: bold;
+}
+
+h1 {
+  color: #fff;
+  /*font-size: 4.5em;*/
+  text-align:center;
+}
+
+.artists {
+  margin-top: -5rem;
+}
+
+.card {
+  margin-top: 0;
+    margin-bottom: 1.5rem;
+    background: #fff;
+    text-align: left;
+    position: relative;
+    border: 1px solid #dbe2e8;
+    box-shadow: 0 2px 4px 0 rgba(46,61,73,0.12);
+    border-radius: 0.125rem;
+    transition: box-shadow 0.3s ease, border 0.3
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(46,61,73,0.12);
+  border: 1px solid #bcc9d4;
+}
+
+.objects {
+  background: lightgrey url('../assets/img/Rangel_objects.png') center center no-repeat;
+  background-size: cover;
+}
+
+.loose {
+  background: lightgrey url('../assets/img/scan0096.png') center center no-repeat;
+  background-size: cover;
+}
+
+.braaten{
+  background: lightgrey url('../assets/img/braatenbeatles&muh.png') center center no-repeat;
+  background-size: cover;
+}
+
+.contemplation {
+  background: lightgrey url('../assets/img/contemplation.png') center center no-repeat;
+  background-size: cover;
+}
+
+.ryan {
+  background: lightgrey url('../assets/img/Ryan.png') center center no-repeat;
+  background-size: cover;
+}
+
+.daydreaming {
+  background: lightgrey url('../assets/img/daydreaming.png') center center no-repeat;
+  background-size: cover;
+}
+
+.image {
+  background-size: cover;
+  height: 300px;
+  background-color: lightgrey;
+}
+
+.profile {
+  border-radius: 40px;
+  background-color: lightblue;
+  height: 65px;
+  width: 65px;
+  martin-top: 20px;
+}
+
+.pull-left {
+  padding: .625rem;
+}
+
+.pull-right {
+  margin-right: .625rem;
+}
+
+.info {
+  margin-top: 1rem;
+}
+
+#featured-artists {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 2rem 0 1rem 0;
+}
+
+#featured-artists-caption {
+  width: 100%;
+}
+
+#featured-artists-caption h1 {
+  color: #4A4A4A;
+  font-weight: bold;
+}
+
+.visit-blog {
+  background-color: #535353;
+  text-align:center;
+}
+
+.visit-blog>h1 {
+  font-size: 2.3em;
+  margin: 0;
+  padding:75px;
+}
+
+#call-to-action-container {
+  background-color: #535353;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#call-to-action-caption {
+  margin-top: 2rem;
+  width: 100%;
+  color: #fff;
+}
+
+.dive-into {
+  padding: 2rem 4rem;
+  background-color: #535353;
+  text-align: center;
+}
+
+.dive-into>h1 {
+  font-size: 2rem;
+}
+
+.artspark-banner {
+  background: url('../assets/img/banner1.png') center center no-repeat;
+  background-size: cover;
+  height: 60vh;
+  background-color: #e7efff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#bannerLogo {
+  height: 5rem;
+  margin-bottom: 5rem;
+}
+
+.visit-blog>h1 {
+  padding: 50px;
+}
+
+.call-to-action>h1 {
+  font-size: 2.3em;
+  margin: 0;
+  padding: 5rem 5rem 1.5rem 5rem;
+}
+
+.call-to-action p {
+  color: #fff;
+  text-align:center;
+  padding: 0 15rem;
+}
+
+.updates-button {
+  border: solid .0625rem #2FC8B6;
+  background-color: #535353;
+  border-radius: .25rem;
+  color: #fff;
+  margin: 2rem;
+  transition: 0.3s ease;
+}
+
+.updates-button:hover {
+  background-color: #2FC8B6;
+  color: #535353
+}
+
+h2 {
+  text-align: center;
+}
+
+footer {
+  background-color: #f0f0f0;
+
+  /*background-color: #535353;*/
+  padding: 2.5rem 0;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+footer a {
+  color: #535353;
+  text-align:center;
+}
+
+footer a:hover {
+  text-decoration: none;
+  /*color: #fff;*/
+}
+
+#mce-EMAIL {
+  width: 45%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media only screen and (min-width: 40rem) {
+  .artists {
+    margin-top: -5rem;
+  }
+}
+
+@media only screen and (max-width: 40em) {
+  .jumbotron {
+    height: 100vh;
+  }
+  .jumbotron .logo {
+    margin-left: 1rem;
+  }
+
+  .artists {
+    margin-top: 3rem;
+  }
+
+  #footerLinks{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+  }
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
