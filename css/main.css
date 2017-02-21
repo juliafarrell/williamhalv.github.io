@@ -2,54 +2,56 @@
   font-family: Avenir Next !important;
 }
 
-body {
-  background-color: #f0f0f0;
-  overflow-x: hidden;
-}
-
-li {
-  list-style: none;
-}
-
-.jumbotron {
-  background-image: url('../assets/img/cover.png');
-  background-size: cover;
-  height: 85vh;
-  background-position: center;
-}
-
-.logo {
-  float: left;
-  height: 36px;
-}
-
-.jumbotron-text {
-  color: #4A4A4A;
-  font-size: 3rem;
-  padding: 0 3rem;
-  font-weight: bold;
-}
-
-h1 {
-  color: #fff;
-  /*font-size: 4.5em;*/
-  text-align:center;
-}
 
 .artists {
   margin-top: -5rem;
 }
 
+/* "Big three" (BT) stuff */
+.bt-img {
+   width:20rem;
+   height:20rem;
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+}
+
+.bt-title {
+  margin-top: 7rem;
+  margin-bottom: none;
+}
+
+.bt-description {
+  margin-top: none;
+  margin-bottom: none;
+}
+
+.bt-button {
+  width: 130px;
+  height: 33px;
+  background-image: linear-gradient(to bottom, #d8d8d8, #b3b3b3);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  border: solid 1px #979797;
+  border-radius: 2px;
+}
+
+.bt-button:hover {
+  color: #FFFFFF;
+}
+
 .card {
-  margin-top: 0;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
     background: #fff;
     text-align: left;
-    position: relative;
+    position:relative;
     border: 1px solid #dbe2e8;
     box-shadow: 0 2px 4px 0 rgba(46,61,73,0.12);
-    border-radius: 0.125rem;
+    border-radius: 0.25rem;
     transition: box-shadow 0.3s ease, border 0.3
+
+}
+
+.card-block {
+  margin: none;
 }
 
 .card:hover {
@@ -57,34 +59,34 @@ h1 {
   border: 1px solid #bcc9d4;
 }
 
-.objects {
-  background: lightgrey url('../assets/img/Rangel_objects.png') center center no-repeat;
-  background-size: cover;
+.card-img-top {
+  text-align: center;
+  padding-top: 13px;
+  width: 325px;
+  height: 200px;
 }
 
-.loose {
-  background: lightgrey url('../assets/img/scan0096.png') center center no-repeat;
-  background-size: cover;
+.card-text {
+  text-align: left;
 }
 
-.braaten{
-  background: lightgrey url('../assets/img/braatenbeatles&muh.png') center center no-repeat;
-  background-size: cover;
+.center-block {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.contemplation {
-  background: lightgrey url('../assets/img/contemplation.png') center center no-repeat;
-  background-size: cover;
+.discover-button {
+  border: none .0625rem;
+  background-color: linear-gradient(to bottom, #d8d8d8, #b3b3b3);
+  border-radius: .2rem;
+  color: #535353;
+  margin: 1rem;
+  transition: 0.3s ease;
 }
 
-.ryan {
-  background: lightgrey url('../assets/img/Ryan.png') center center no-repeat;
-  background-size: cover;
-}
-
-.daydreaming {
-  background: lightgrey url('../assets/img/daydreaming.png') center center no-repeat;
-  background-size: cover;
+.discover-button:hover {
+  color: #ffffff;
 }
 
 .image {
@@ -93,130 +95,38 @@ h1 {
   background-color: lightgrey;
 }
 
-.profile {
-  border-radius: 40px;
-  background-color: lightblue;
-  height: 65px;
-  width: 65px;
-  martin-top: 20px;
-}
-
-.pull-left {
-  padding: .625rem;
-}
-
-.pull-right {
-  margin-right: .625rem;
-}
-
 .info {
   margin-top: 1rem;
 }
 
-#featured-artists {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  margin: 2rem 0 1rem 0;
-}
-
-#featured-artists-caption {
-  width: 100%;
-}
-
-#featured-artists-caption h1 {
-  color: #4A4A4A;
-  font-weight: bold;
-}
-
-.visit-blog {
-  background-color: #535353;
-  text-align:center;
-}
-
-.visit-blog>h1 {
-  font-size: 2.3em;
-  margin: 0;
-  padding:75px;
-}
-
-#call-to-action-container {
-  background-color: #535353;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-
-#call-to-action-caption {
-  margin-top: 2rem;
-  width: 100%;
-  color: #fff;
-}
-
-.dive-into {
-  padding: 2rem 4rem;
-  background-color: #535353;
-  text-align: center;
-}
-
-.dive-into>h1 {
-  font-size: 2rem;
-}
-
-.artspark-banner {
-  background: url('../assets/img/banner1.png') center center no-repeat;
+.jumbotron {
+  background-image: url('../assets/img/banner2.png');
   background-size: cover;
-  height: 60vh;
-  background-color: #e7efff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 57vh;
+  margin-top: 4vh;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-#bannerLogo {
-  height: 5rem;
-  margin-bottom: 5rem;
-}
-
-.visit-blog>h1 {
-  padding: 50px;
-}
-
-.call-to-action>h1 {
-  font-size: 2.3em;
-  margin: 0;
-  padding: 5rem 5rem 1.5rem 5rem;
-}
-
-.call-to-action p {
-  color: #fff;
-  text-align:center;
-  padding: 0 15rem;
-}
-
-.updates-button {
-  border: solid .0625rem #2FC8B6;
-  background-color: #535353;
-  border-radius: .25rem;
-  color: #fff;
-  margin: 2rem;
-  transition: 0.3s ease;
-}
-
-.updates-button:hover {
-  background-color: #2FC8B6;
-  color: #535353
-}
-
-h2 {
+.logo {
+  height: 36px;
+  margin-top: 4.3vh;
   text-align: center;
+}
+
+.logo2 {
+  height: 36px;
+}
+
+body {
+  background-color: #f0f0f0;
+  overflow-x: hidden;
 }
 
 footer {
   background-color: #f0f0f0;
-
-  /*background-color: #535353;*/
   padding: 2.5rem 0;
+  padding-top: 3rem;
   font-size: 1.2rem;
   text-align: center;
 }
@@ -228,34 +138,119 @@ footer a {
 
 footer a:hover {
   text-decoration: none;
-  /*color: #fff;*/
 }
 
-#mce-EMAIL {
-  width: 45%;
-  margin: 0 auto;
+h1 {
   text-align: center;
+  width: 70%;
+	font-size: 1.1rem;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #535353;
 }
 
-@media only screen and (min-width: 40rem) {
-  .artists {
-    margin-top: -5rem;
-  }
+h2 {
+	font-size: 0.7rem;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+  padding-bottom: 5px;
+	color: #535353;
 }
 
-@media only screen and (max-width: 40em) {
+h3 {
+  color: #535353;
+	font-size: 2rem;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+  margin-top: 5rem;
+}
+
+h4 {
+	font-size: 20px;
+	font-weight: lighter;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #535353;
+}
+
+h5 {
+  font-size: 20px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #000000;
+}
+
+#bannerLogo {
+  height: 5rem;
+  margin-bottom: 5rem;
+}
+
+#big-three-section {
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+
+#featured-artists {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #535353;
+  margin-bottom: 6rem ;
+}
+
+@media only screen and (max-width: 48rem) {
   .jumbotron {
-    height: 100vh;
+    height: 30vh;
+    margin-top: 3vh;
   }
-  .jumbotron .logo {
+  .logo {
     margin-left: 1rem;
+    margin-top: 5vh;
+    height: 5vh;
   }
-
   .artists {
-    margin-top: 3rem;
+    margin-top: -4rem;
+  }
+  .bt-img {
+     width:38vh;
+     height:38vh;
+     margin-top: 2rem;
+     margin-bottom: 2rem;
+     background-color: #535353;
+     padding: 1px;
+  }
+  .bt-title {
+    margin-top: 1rem;
+  }
+  .bt-button {
+    margin-bottom: 3rem;
   }
 
-  #footerLinks{
+  h3 {
+    margin-top: 2rem;
+  }
+
+  #big-three-section {
+    margin-bottom: 1rem;
+  }
+  #footerLinks {
     display:flex;
     flex-direction: column;
     align-items: center;
